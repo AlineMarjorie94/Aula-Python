@@ -1,6 +1,6 @@
 #Exercicios 07/03/2024 
 
-Leia do usuario o raio do círculo 
+#Leia do usuario o raio do círculo 
 #Calcule área: area = 31415*raio*raio, mostre a area com mensagem apropriada
 raio = float(input("Digite o raio do circulo: "))
 
