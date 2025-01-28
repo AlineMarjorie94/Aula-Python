@@ -37,6 +37,8 @@ C = float(input("Digite o valor de C: "))
 
 resultado = math.sqrt (A) + math.sqrt (B) + math.sqrt (C)
 
+print("O resultado da equação é: ", round(resultado, 2))
+
 #Faça um programa que leia do usuario: - População atual - Taxa de crescimento - anos
 #Calcular populaçãofutura = populaçãoatual*(1+taxadecrescimento)^anos
 
@@ -51,8 +53,6 @@ anos = int(input("Digite quantos anos: "))
 resultado = populacaoatual * math.pow (1 + (crescimento/100), anos)
 print("=================================")
 print("A população futura será aprximadamente: ", resultado)
-
-print("O resultado da equação é: ", round(resultado, 2))
 
 #Faça um programa que leia x1, x2, y1, y2 e calcule a distâcia euclediana entre os pontos A(x1,x2) B(y1,y2)
 #distancia = √(x2-x1)² + (y2-y1)²
@@ -69,6 +69,7 @@ y2 = float(input("Digite o valor de y2: "))
 resultado = math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1,2))
 
 print("A distancia euclediana é de:",round(resultado, 2))
+
 #Calculo da diagonal de um triangulo: - Leia largura - Leia o comprimento
 #Calcule: diagonal = √largura²+comprimento²
 
@@ -104,4 +105,3 @@ print("O Resultado de x=a²-√b² é: ",x)
 print("O Resultado de y=c²+√d² é: ",y)
 print("O Resultado de r=√(x+y)² é: ", r)
 print("=================================")
-
